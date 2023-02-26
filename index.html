@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheet1 JS</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+    main {
+        width: 50%;
+        margin: auto;
+    }
+    .hint {
+        color: red;
+    }
+
+    section {
+        color: white;
+        border: 1px solid white;
+        border-radius: 30px;
+        padding: 20px;
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+    }
+    
+</style>
+<body>
+    <main>
+        <pre class="hint">
+            [Hint]: if I have 
+
+            x = ["A", "B", "C"]
+
+            then to get "A" write
+            x[0] you will get <b>A</b>
+            -----------------------------
+            to get "B" write
+            x[1] you will get <b>B</b>
+            -----------------------------
+            to get "C" write
+            x[2] you will get <b>C</b>
+
+            and so on.....
+        </pre>
+        <section>
+            <p>Q1) Given a character find if this character is Capital letter or small letter or digit:</p>
+            <input id="inputQ1" type="text" value="" maxlength="1" size="1">
+            <p id="outputQ1">No Answer</p>
+            <button onclick="question1()">Test</button>
+        </section>
+        <section>
+            <p>Q2) Given a mathematical expression. The expression will be
+                one of the following expressions:
+                <br />
+            <ul>
+                <li>A + B = C</li>
+                <li>A - B = C</li>
+                <li>A * B = C</li>
+            </ul>
+            where <b>A, B, C</b> are three numbers, <b>S</b> is the sign
+            between <b>A and B</b>, and <b>Q</b> the ' = ' sign
+            <br />
+            <b>Print "Yes"</b> If the expression is Right , Otherwise print the right
+            answer of the expression.
+            <br />
+            <span>(use string.split())</span></p>
+            <input id="inputQ2" type="text" value="">
+            <p id="outputQ2">No Answer</p>
+            <button onclick="question2()">Test</button>
+        </section>
+        <section>
+            <p>Q3) Given two numbers <b>A and B</b>.
+                <br />
+                <b>Print "Multiples"</b> if <b>A</b> is multiple of <b>B</b> or <b>vice versa</b>.
+                <br />
+                Otherwise <b>print "No Multiples"</b>:
+            </p>
+            <label for="input1Q3">A</label>
+            <input id="input1Q3" type="text" value="" size="1">
+            <label for="input2Q3">B</label>
+            <input id="input2Q3" type="text" value="" size="1">
+            <p id="outputQ3">No Answer</p>
+            <button onclick="question3()">Test</button>
+        </section>
+        <section>
+            <p>Q4) Given two points <b>(x,y)</b> find the distance between them.
+                <br />
+                <span>(input: x1, y1, x2, y2)</span>
+            </p>
+
+            <input id="inputQ4" type="text" value="">
+            <p id="outputQ4">No Answer</p>
+            <button onclick="question4()">Test</button>
+        </section>
+        <section>
+            <p>Q5) Given a string if the size of it greater than 10 display in this way:</p>
+            <ul>
+                <li>Print the first character in the string.</li>
+                <li>Print number of characters between the first and the last characters.</li>
+                <li>Print the last character in the string.</li>
+            </ul>
+            <p>Otherwise print the string.</p>
+
+            <input id="inputQ5" type="text" value="">
+            <p id="outputQ5">No Answer</p>
+            <button onclick="question5()">Test</button>
+        </section>
+
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

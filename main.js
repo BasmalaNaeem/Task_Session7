@@ -70,7 +70,7 @@ function question4() {
   let q4_input = inputQ4.value;
   let q4_output;
 
-  let myPoints = q4_input.split(", ");
+  let myPoints = q4_input.split(",");
 
   let x1 = myPoints[0];
   let y1 = myPoints[1];
